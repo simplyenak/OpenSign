@@ -17,9 +17,9 @@ jobs:
     strategy:
       matrix:
         include:
-          - image: opensign/opensign
+          - image: simplyenak/opensign
             dockerfile: apps/OpenSign/Dockerhubfile
-          - image: opensign/opensignserver
+          - image: simplyenak/opensignserver
             dockerfile: apps/OpenSignServer/Dockerhubfile
 
     steps:
